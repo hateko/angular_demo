@@ -1,0 +1,32 @@
+{
+  "name": "angular_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "jshint src",
+    "test": "karma start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^16.2.0",
+    "jasmine-core": "^3.1.0",
+    "jshint": "^2.9.5",
+    "karma": "^2.0.0",
+    "karma-browserify": "^5.2.0",
+    "karma-jasmine": "^1.1.1",
+    "karma-jshint-preprocessor": "0.0.6",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "phantomjs-prebuilt": "^2.1.16",
+    "sinon": "^4.5.0",
+    "watchify": "^3.11.0"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.5"
+  }
+}
