@@ -6,8 +6,13 @@ module.exports = function(config){
       'test/**/*_spec.js'
     ],
     preprocessors: {
-      'test/**/*.js': ['jshint', 'browserify'],
+      'test/**/*.js': ['jshint', 'browserify', 'coverage'],
       'src/**/*.js': ['jshint', 'browserify']
+    },
+    reporters: ['progress', 'coverage'],
+    coverageReporter: {
+      type : 'lcov',
+      dir : 'coverage/'
     },
     browsers: ['PhantomJS'],
     browserif: {

@@ -2,6 +2,8 @@
 
 var _ = require('lodash');
 var Scope = require('../src/scope');
+// var chai = require('chai');
+// var expect = chai.expect;
 
 describe('Scope', function () {
   it('can be constructed and used as an object', function () {
