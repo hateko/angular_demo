@@ -1,2 +1,2 @@
 angular_demo
-[![Coveralls](https://img.shields.io/coveralls/xcatliu/pagic.svg)](https://coveralls.io/github/xcatliu/pagic)
+[![Coverage Status](https://coveralls.io/repos/github/hateko/angular_demo/badge.svg)](https://coveralls.io/github/hateko/angular_demo)
