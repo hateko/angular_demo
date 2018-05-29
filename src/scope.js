@@ -220,6 +220,14 @@ Scope.prototype.$watchGroup = function (watchFns, listenerFn) {
   };
 };
 
+Scope.prototype.$new = function(){
+  // var ChildScope = function(){};
+  // ChildScope.prototype = this;
+  // return new ChildScope();
+  
+  return Object.create(this);
+};
+
 
 
 
